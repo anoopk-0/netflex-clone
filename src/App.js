@@ -1,8 +1,13 @@
+import jumboData from "./fixtures/jumbo";
+import JumbotronContainer from "./containers/JumbotronContainer";
+import FooterContainer from "./containers/FooterContainer";
+
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <>
+      <JumbotronContainer data={jumboData} />
+      <FooterContainer />
+    </>
   );
 }
 
