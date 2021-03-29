@@ -13,7 +13,11 @@ OptForm.Button = function OptFormButton({ children, ...props }) {
   return <Button {...props}>{children}</Button>;
 };
 OptForm.Button = function OptFormButton({ children, ...props }) {
-  return <Button {...props}>{children}</Button>;
+  return (
+    <Button {...props}>
+      {children} <img src="/images/icons/chevron-right.png" alt="try now" />
+    </Button>
+  );
 };
 
 OptForm.Break = function OptFormBreak({ children, ...props }) {
