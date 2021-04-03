@@ -5,7 +5,7 @@ import * as ROUTE from "../contants/routes";
 
 import logo from "../logo.svg";
 
-const HeaderContainer = ({children}) => {
+const HeaderContainer = ({ children }) => {
   return (
     <Header>
       <Header.Frame>
